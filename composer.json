@@ -1,0 +1,23 @@
+{
+    "name": "tomastechlab/shopware-plugin-dependency",
+    "version": "1.0.0",
+    "description": "Composer plugin to automatically activate Shopware plugins with dependency resolution",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "composer-plugin-api": "^2.0",
+        "marcj/topsort": "^0.1"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TomasTechLab\\ShopwarePluginDependency\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "TomasTechLab\\ShopwarePluginDependency\\Plugin"
+    }
+}

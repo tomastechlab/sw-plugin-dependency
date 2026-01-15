@@ -1,0 +1,9 @@
+vendor/
+composer.lock
+.idea/
+.vscode/
+*.cache
+*.swp
+*.swo
+*~
+.DS_Store
