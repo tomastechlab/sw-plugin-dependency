@@ -9,10 +9,8 @@ Composer plugin to automatically activate Shopware plugins in the correct depend
 - Activates plugins in dependency order to prevent activation failures
 - Handles circular dependency detection
 - Skips already installed/activated plugins
-<<<<<<< HEAD
 - Optional disabling via environment variable or configuration
-=======
->>>>>>> fe55a25 (initial version of plugin dependency resolver)
+
 
 ## Installation
 
@@ -29,7 +27,6 @@ The plugin automatically runs after `composer install` and `composer update`. It
 3. Build a dependency graph and perform topological sort
 4. Activate plugins in the correct order using `php bin/console plugin:install --activate`
 
-<<<<<<< HEAD
 ## Disabling the Plugin
 
 You can disable the automatic plugin activation in two ways:
@@ -70,8 +67,6 @@ Add this configuration to your project's composer.json:
 
 This is useful when you want to permanently disable the plugin for a specific project.
 
-=======
->>>>>>> fe55a25 (initial version of plugin dependency resolver)
 ## Configuration
 
 The plugin looks for plugins in the default Shopware locations:
@@ -86,5 +81,4 @@ The plugin looks for plugins in the default Shopware locations:
 - Shopware 6
 
 ## License
-
 MIT
